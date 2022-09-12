@@ -204,10 +204,10 @@ these captures as well. Anyway, here's the annoying process of generating data:
 
 The test looks at 4 environment variables when running, they are:
 
-- `MARKETO_ENDPOINT`
-- `MARKETO_IDENTITY`
-- `MARKETO_CLIENT_ID`
-- `MARKETO_CLIENT_SECRET`
+  - `MARKETO_ENDPOINT`
+  - `MARKETO_IDENTITY`
+  - `MARKETO_CLIENT_ID`
+  - `MARKETO_CLIENT_SECRET`
 
 After setting these variables, run `npm run testRecord`.
 
