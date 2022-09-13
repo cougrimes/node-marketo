@@ -7,7 +7,7 @@
     "url": "https://github.com/MadKudu/node-marketo/"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "mocha test/*.test.js",

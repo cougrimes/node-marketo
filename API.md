@@ -29,7 +29,6 @@ marketo.lead.byId(3, {fields: ['email', 'lastName']})
   });
 ```
 
-
 #### lead.find(filterType, filterValues, options)
 
 Implements [Get Multiple Leads by Filter Type](http://developers.marketo.com/documentation/rest/get-multiple-leads-by-filter-type/)
@@ -48,7 +47,6 @@ marketo.lead.find('email', ['email@one.com', 'email@two.com'])
 // or
 marketo.lead.find('email', 'email@one.com,email@two.com')
 ```
-
 
 #### lead.createOrUpdate(input, options)
 
@@ -159,5 +157,3 @@ param | type | description
 // Get leads from list id 1
 marketo.list.getLeads(1)
 ```
-
-
